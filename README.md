@@ -18,44 +18,53 @@
 
 <br>
 
-🔴 PH — CENTRO DE DEFESA CIBERNÉTICA
-<span style="color:#1565C0">PLATAFORMA DE MONITORAMENTO SOC</span>
+# 🔴 PH — CENTRO DE DEFESA CIBERNÉTICA
+
+### <span style="color:#1565C0">PLATAFORMA DE MONITORAMENTO SOC</span>
 
 <br>
 
-🛡️ CYBER DEFENSE • 🔎 THREAT HUNTING • 🚨 INCIDENT RESPONSE • 🐧 LINUX • 🐍 PYTHON
+**🛡️ CYBER DEFENSE • 🔎 THREAT HUNTING • 🚨 INCIDENT RESPONSE • 🐧 LINUX • 🐍 PYTHON**
 
 <br>
 
-<img src="https://img.shields.io/badge/PH-CYBER%20DEFENSE-D50000?style=for-the-badge&logo=shield&logoColor=white"> <img src="https://img.shields.io/badge/SOC-MONITORING-1565C0?style=for-the-badge&logo=security&logoColor=white"> <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-00C853?style=for-the-badge"> <img src="https://img.shields.io/badge/PLATAFORMA-AUTORAL-6A1B9A?style=for-the-badge">
+<img src="https://img.shields.io/badge/PH-CYBER%20DEFENSE-D50000?style=for-the-badge&logo=shield&logoColor=white">
+<img src="https://img.shields.io/badge/SOC-MONITORING-1565C0?style=for-the-badge&logo=security&logoColor=white">
+<img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-00C853?style=for-the-badge">
+<img src="https://img.shields.io/badge/PLATAFORMA-AUTORAL-6A1B9A?style=for-the-badge">
 
 <br><br>
 
-Projeto autoral desenvolvido por Paulo Henrique (PH)
-Uma plataforma de defesa cibernética criada para centralizar monitoramento, detecção, investigação, threat hunting e resposta a incidentes em uma única estação de operação.
+> **Projeto autoral desenvolvido por Paulo Henrique (PH)**
+> Uma plataforma de defesa cibernética criada para centralizar **monitoramento, detecção, investigação, threat hunting e resposta a incidentes** em uma única estação de operação.
 
 <br>
 
-🔴 DETECTAR   →  
-🔵 ANALISAR   →  
-🟢 RESPONDER
+🔴 **DETECTAR**   →  
+🔵 **ANALISAR**   →  
+🟢 **RESPONDER**
 
 </div>
+
+---
 
 <div align="center">
 
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
-CENTRO DE OPERAÇÕES
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+
+## **CENTRO DE OPERAÇÕES**
+
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
 
 </div>
 
-🖥️ O QUE É ESTE PROJETO?
+### 🖥️ O QUE É ESTE PROJETO?
 
-O PH — Centro de Defesa Cibernética — Plataforma de Monitoramento SOC é um projeto autoral desenvolvido para representar uma estação operacional de segurança cibernética, reunindo diferentes áreas de uma operação SOC em uma única interface.
+O **PH — Centro de Defesa Cibernética — Plataforma de Monitoramento SOC** é um projeto autoral desenvolvido para representar uma **estação operacional de segurança cibernética**, reunindo diferentes áreas de uma operação SOC em uma única interface.
 
 A plataforma foi pensada para trabalhar com:
 
+```text
 ┌─────────────────────────────────────────────────────────────┐
 │                    PH — CYBER DEFENSE                       │
 ├─────────────────────────────────────────────────────────────┤
@@ -67,19 +76,25 @@ A plataforma foi pensada para trabalhar com:
 │  ⚙️ AUTOMAÇÃO         🛡️ RESPOSTA            📡 TELEMETRIA  │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
+```
+
+---
 
 <div align="center">
 
-🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
-VISÃO OPERACIONAL
-🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
+## 🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
+
+## **VISÃO OPERACIONAL**
+
+## 🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
 
 </div>
 
-🎯 PROPÓSITO
+### 🎯 PROPÓSITO
 
-O objetivo do projeto é transformar eventos técnicos de segurança em informação operacional para análise e tomada de decisão.
+O objetivo do projeto é transformar eventos técnicos de segurança em **informação operacional para análise e tomada de decisão**.
 
+```text
                     EVENTO
                       │
                       ▼
@@ -114,15 +129,21 @@ O objetivo do projeto é transformar eventos técnicos de segurança em informa�
                       │
                       ▼
                  ENCERRAMENTO
+```
+
+---
 
 <div align="center">
 
-🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
-ARQUITETURA DO AMBIENTE
-🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
+## 🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
+
+## **ARQUITETURA DO AMBIENTE**
+
+## 🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
 
 </div>
 
+```text
                          INTERNET
                             │
                             ▼
@@ -161,34 +182,43 @@ ARQUITETURA DO AMBIENTE
                            │
                            ▼
                        RESPOSTA
+```
 
 O Wazuh é utilizado como referência para a arquitetura de monitoramento de segurança e coleta de eventos. A plataforma oficial descreve componentes como agentes, servidor, indexador e dashboard.
 
+---
+
 <div align="center">
 
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
-MÓDULOS DO SOC
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+
+## **MÓDULOS DO SOC**
+
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
 
 </div>
 
-🛰️ 01 — CENTRO DE COMANDO
+### 🛰️ 01 — CENTRO DE COMANDO
 
 O centro de comando apresenta uma visão geral da operação.
 
-Recursos:
+**Recursos:**
 
-🟢 Estado dos componentes
-🚨 Incidentes ativos
-📡 Fluxo de eventos
-🌐 Topologia da rede
-📊 Indicadores operacionais
-⚡ Atualizações da atividade
-🔴 Alertas críticos
-🌐 02 — OPERAÇÕES DE REDE
+* 🟢 Estado dos componentes
+* 🚨 Incidentes ativos
+* 📡 Fluxo de eventos
+* 🌐 Topologia da rede
+* 📊 Indicadores operacionais
+* ⚡ Atualizações da atividade
+* 🔴 Alertas críticos
+
+---
+
+### 🌐 02 — OPERAÇÕES DE REDE
 
 Representação operacional da infraestrutura:
 
+```text
                 INTERNET
                     │
                     ▼
@@ -202,17 +232,25 @@ Representação operacional da infraestrutura:
                     │
                     ▼
                PH SOC CORE
-Indicadores
-Indicador	Finalidade
-📡 Mbps	Tráfego de rede
-📦 PPS	Pacotes por segundo
-🚨 Eventos	Atividade detectada
-🔴 Alertas	Eventos relevantes
-🟢 Status	Saúde dos componentes
-🚨 03 — MONITOR DE AMEAÇAS
+```
+
+### Indicadores
+
+| Indicador  | Finalidade            |
+| ---------- | --------------------- |
+| 📡 Mbps    | Tráfego de rede       |
+| 📦 PPS     | Pacotes por segundo   |
+| 🚨 Eventos | Atividade detectada   |
+| 🔴 Alertas | Eventos relevantes    |
+| 🟢 Status  | Saúde dos componentes |
+
+---
+
+### 🚨 03 — MONITOR DE AMEAÇAS
 
 Centralização dos eventos de segurança.
 
+```text
 🔴 CRÍTICO
 ████████████████████████
 
@@ -227,14 +265,19 @@ Centralização dos eventos de segurança.
 
 🟢 INFORMATIVO
 ██
-Ciclo
+```
 
-DETECÇÃO → TRIAGEM → INVESTIGAÇÃO → CONTENÇÃO → MITIGAÇÃO → ENCERRAMENTO
+### Ciclo
 
-🖥️ 04 — ENDPOINT SECURITY
+**DETECÇÃO → TRIAGEM → INVESTIGAÇÃO → CONTENÇÃO → MITIGAÇÃO → ENCERRAMENTO**
+
+---
+
+### 🖥️ 04 — ENDPOINT SECURITY
 
 Monitoramento dos ativos.
 
+```text
 ╔══════════════════════════════════════╗
 ║             LINUX-01                 ║
 ╠══════════════════════════════════════╣
@@ -245,10 +288,15 @@ Monitoramento dos ativos.
 ║ DISK         : 61%                   ║
 ║ ALERTAS      : 🔴 03                 ║
 ╚══════════════════════════════════════╝
-🔎 05 — THREAT HUNTING
+```
+
+---
+
+### 🔎 05 — THREAT HUNTING
 
 Área destinada à investigação proativa.
 
+```text
 ┌──────────────────────────────────────────────┐
 │ PH-SOC > THREAT-HUNT                        │
 ├──────────────────────────────────────────────┤
@@ -260,19 +308,26 @@ Monitoramento dos ativos.
 │                                              │
 │ [ EXECUTAR CONSULTA ]                        │
 └──────────────────────────────────────────────┘
-Recursos
-Pesquisa avançada
-Filtros
-Eventos brutos
-JSON
-Indicadores
-Investigação por host
-Exportação CSV
-Correlação
-🔬 06 — INVESTIGAÇÃO DE INCIDENTES
+```
+
+### Recursos
+
+* Pesquisa avançada
+* Filtros
+* Eventos brutos
+* JSON
+* Indicadores
+* Investigação por host
+* Exportação CSV
+* Correlação
+
+---
+
+### 🔬 06 — INVESTIGAÇÃO DE INCIDENTES
 
 Cada incidente pode possuir seu próprio caso.
 
+```text
 ╔══════════════════════════════════════════╗
 ║              CASO #000421                ║
 ╠══════════════════════════════════════════╣
@@ -282,7 +337,11 @@ Cada incidente pode possuir seu próprio caso.
 ║ SEVERIDADE  : ALTA                       ║
 ║ TÉCNICA     : MITRE ATT&CK               ║
 ╚══════════════════════════════════════════╝
-Linha do tempo
+```
+
+### Linha do tempo
+
+```text
 14:21:03  ● EVENTO DETECTADO
               │
 14:21:07  ● REGRA ACIONADA
@@ -294,10 +353,15 @@ Linha do tempo
 14:22:10  ● HOST ANALISADO
               │
 14:23:04  ● AÇÃO DE RESPOSTA
-🧩 07 — MITRE ATT&CK
+```
+
+---
+
+### 🧩 07 — MITRE ATT&CK
 
 O projeto utiliza o MITRE ATT&CK para contextualizar comportamentos adversários e relacionar eventos às técnicas correspondentes.
 
+```text
 RECONHECIMENTO
       │
       ▼
@@ -323,10 +387,15 @@ COMANDO E CONTROLE
       │
       ▼
 EXFILTRAÇÃO / IMPACTO
-⚔️ 08 — SIMULAÇÃO CONTROLADA
+```
+
+---
+
+### ⚔️ 08 — SIMULAÇÃO CONTROLADA
 
 O laboratório possui cenários controlados para gerar eventos e observar o ciclo de defesa.
 
+```text
 ┌───────────────────────────────┐
 │      ATAQUES CONTROLADOS      │
 ├───────────────────────────────┤
@@ -349,30 +418,37 @@ O laboratório possui cenários controlados para gerar eventos e observar o cicl
                 │
                 ▼
              RESPOSTA
+```
 
-⚠️ Todos os testes são destinados exclusivamente a ambientes próprios e autorizados.
+> ⚠️ **Todos os testes são destinados exclusivamente a ambientes próprios e autorizados.**
+
+---
 
 <div align="center">
 
-🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
-MODO DEMONSTRAÇÃO
-🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
+## 🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
+
+## **MODO DEMONSTRAÇÃO**
+
+## 🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
 
 </div>
 
-🧪 DEMO MODE
+### 🧪 DEMO MODE
 
 A aplicação possui um modo de demonstração que permite visualizar o funcionamento da plataforma sem depender, inicialmente, de uma infraestrutura externa.
 
 O mecanismo gera eventos controlados para demonstrar:
 
-🚨 Alertas
-📡 Telemetria
-🖥️ Endpoints
-🌐 Eventos de rede
-🔎 Investigação
-🧩 Técnicas
-📊 Atualização operacional
+* 🚨 Alertas
+* 📡 Telemetria
+* 🖥️ Endpoints
+* 🌐 Eventos de rede
+* 🔎 Investigação
+* 🧩 Técnicas
+* 📊 Atualização operacional
+
+```text
 DEMO ENGINE
      │
      ├── Wazuh Events
@@ -382,20 +458,27 @@ DEMO ENGINE
               │
               ▼
         PH SOC PLATFORM
+```
 
-🟡 Importante: o DEMO MODE representa uma camada de simulação. A evolução do projeto prevê a substituição progressiva dos eventos simulados por telemetria real.
+> 🟡 **Importante:** o DEMO MODE representa uma camada de simulação. A evolução do projeto prevê a substituição progressiva dos eventos simulados por telemetria real.
+
+---
 
 <div align="center">
 
-🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
-STACK TECNOLÓGICA
-🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
+## 🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
+
+## **STACK TECNOLÓGICA**
+
+## 🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
 
 </div>
 
-<table> <tr> <td width="33%" align="center">
+<table>
+<tr>
+<td width="33%" align="center">
 
-🔵 FRONT-END
+### 🔵 FRONT-END
 
 React
 TypeScript
@@ -409,7 +492,7 @@ Web Audio API
 
 <td width="33%" align="center">
 
-🟢 BACK-END
+### 🟢 BACK-END
 
 Python
 FastAPI
@@ -421,7 +504,7 @@ JSON
 
 <td width="33%" align="center">
 
-🔴 SECURITY
+### 🔴 SECURITY
 
 Wazuh
 Suricata
@@ -430,18 +513,25 @@ MITRE ATT&CK
 Kali Linux
 Linux
 
-</td> </tr> </table>
+</td>
+</tr>
+</table>
+
+---
 
 <div align="center">
 
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
-AUTOMAÇÃO & INTELIGÊNCIA OPERACIONAL
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+
+## **AUTOMAÇÃO & INTELIGÊNCIA OPERACIONAL**
+
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
 
 </div>
 
 O projeto utiliza Python como uma das tecnologias centrais para evolução da automação.
 
+```text
                  EVENTOS
                     │
                     ▼
@@ -456,25 +546,31 @@ O projeto utiliza Python como uma das tecnologias centrais para evolução da au
        └────────────┼────────────┘
                     ▼
               AÇÃO OPERACIONAL
+```
 
 Possíveis evoluções:
 
-Correlação automática
-Classificação de eventos
-Geração de indicadores
-Automação de playbooks
-Resposta automatizada
-Notificações
-Relatórios
+* Correlação automática
+* Classificação de eventos
+* Geração de indicadores
+* Automação de playbooks
+* Resposta automatizada
+* Notificações
+* Relatórios
+
+---
 
 <div align="center">
 
-🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
-ESTRUTURA DO PROJETO
-🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
+## 🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
+
+## **ESTRUTURA DO PROJETO**
+
+## 🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
 
 </div>
 
+```text
 PH-CYBER-DEFENSE-CENTER/
 │
 ├── 📁 public/
@@ -496,41 +592,63 @@ PH-CYBER-DEFENSE-CENTER/
 ├── 📄 tsconfig.json
 ├── 📄 vite.config.ts
 └── 📄 README.md
+```
+
+---
 
 <div align="center">
 
-🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
-EXECUÇÃO LOCAL
-🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
+## 🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
+
+## **EXECUÇÃO LOCAL**
+
+## 🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
 
 </div>
 
-💻 REQUISITOS
+### 💻 REQUISITOS
+
+```text
 Windows 10 / 11
 Node.js
 npm
 Git
-⚙️ INSTALAÇÃO
+```
+
+### ⚙️ INSTALAÇÃO
+
+```bash
 git clone <URL_DO_REPOSITORIO>
 
 cd ph-cyber-defense-center
 
 npm install
-▶️ EXECUTAR
+```
+
+### ▶️ EXECUTAR
+
+```bash
 npm run dev
+```
 
 Depois, acessar o endereço local exibido pelo Vite.
 
-<details> <summary>🔐 <b>CONFIGURAÇÃO DO AMBIENTE</b></summary>
+---
+
+<details>
+<summary>🔐 <b>CONFIGURAÇÃO DO AMBIENTE</b></summary>
 
 <br>
 
 Arquivo:
 
+```text
 .env
+```
 
 Exemplo:
 
+```env
 GEMINI_API_KEY=""
 
 VITE_SOC_API_URL="http://localhost:8000"
@@ -538,138 +656,163 @@ VITE_SOC_API_URL="http://localhost:8000"
 VITE_SOC_WS_URL="ws://localhost:8000/ws/events"
 
 VITE_SOC_MODE="DEMO"
+```
 
 </details>
 
+---
+
 <div align="center">
 
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
-ROADMAP
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+
+## **ROADMAP**
+
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━ 🔴
 
 </div>
 
-🟢 FASE 01 — INTERFACE SOC
+### 🟢 FASE 01 — INTERFACE SOC
 
-Centro de Comando
+* [x] Centro de Comando
+* [x] Monitoramento de ameaças
+* [x] Monitoramento de endpoints
+* [x] Threat Hunting
+* [x] Investigação
+* [x] MITRE ATT&CK
+* [x] Status do sistema
+* [x] DEMO MODE
+* [x] Simulação de eventos
 
-Monitoramento de ameaças
+### 🔵 FASE 02 — INTEGRAÇÃO
 
-Monitoramento de endpoints
+* [ ] FastAPI
+* [ ] WebSocket
+* [ ] Wazuh real
+* [ ] Recepção de alertas
+* [ ] Normalização
+* [ ] Persistência
 
-Threat Hunting
+### 🟠 FASE 03 — DETECÇÃO
 
-Investigação
+* [ ] Regras personalizadas
+* [ ] Correlação
+* [ ] Suricata
+* [ ] Zeek
+* [ ] Mapeamento MITRE automático
 
-MITRE ATT&CK
+### 🔴 FASE 04 — RESPOSTA
 
-Status do sistema
+* [ ] Playbooks
+* [ ] Automação Python
+* [ ] Contenção
+* [ ] Notificações
+* [ ] Relatórios
 
-DEMO MODE
+### 🟣 FASE 05 — EVOLUÇÃO
 
-Simulação de eventos
+* [ ] Integração completa do laboratório
+* [ ] Telemetria real
+* [ ] Threat Intelligence
+* [ ] Automação avançada
+* [ ] Incident Response automatizado
 
-🔵 FASE 02 — INTEGRAÇÃO
-
-FastAPI
-
-WebSocket
-
-Wazuh real
-
-Recepção de alertas
-
-Normalização
-
-Persistência
-
-🟠 FASE 03 — DETECÇÃO
-
-Regras personalizadas
-
-Correlação
-
-Suricata
-
-Zeek
-
-Mapeamento MITRE automático
-
-🔴 FASE 04 — RESPOSTA
-
-Playbooks
-
-Automação Python
-
-Contenção
-
-Notificações
-
-Relatórios
-
-🟣 FASE 05 — EVOLUÇÃO
-
-Integração completa do laboratório
-
-Telemetria real
-
-Threat Intelligence
-
-Automação avançada
-
-Incident Response automatizado
+---
 
 <div align="center">
 
-🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
-O QUE ESTE PROJETO DEMONSTRA
-🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
+## 🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
+
+## **O QUE ESTE PROJETO DEMONSTRA**
+
+## 🔵 ━━━━━━━━━━━━━━━━━━━━━━━ 🔵
 
 </div>
 
-<table> <tr> <td>🐧 <b>Linux</b></td> <td>Administração, serviços, logs, processos e diagnóstico</td> </tr> <tr> <td>🛡️ <b>Cybersecurity</b></td> <td>Detecção, análise, monitoramento e resposta</td> </tr> <tr> <td>🐍 <b>Python</b></td> <td>Automação, APIs e processamento de eventos</td> </tr> <tr> <td>🌐 <b>Redes</b></td> <td>Tráfego, eventos, IDS/IPS e análise</td> </tr> <tr> <td>🖥️ <b>Desenvolvimento</b></td> <td>React, TypeScript, Vite e interfaces operacionais</td> </tr> <tr> <td>🔎 <b>Threat Hunting</b></td> <td>Pesquisa, investigação e correlação</td> </tr> <tr> <td>🚨 <b>SOC</b></td> <td>Monitoramento, triagem e resposta a incidentes</td> </tr> </table>
+<table>
+<tr>
+<td>🐧 <b>Linux</b></td>
+<td>Administração, serviços, logs, processos e diagnóstico</td>
+</tr>
+<tr>
+<td>🛡️ <b>Cybersecurity</b></td>
+<td>Detecção, análise, monitoramento e resposta</td>
+</tr>
+<tr>
+<td>🐍 <b>Python</b></td>
+<td>Automação, APIs e processamento de eventos</td>
+</tr>
+<tr>
+<td>🌐 <b>Redes</b></td>
+<td>Tráfego, eventos, IDS/IPS e análise</td>
+</tr>
+<tr>
+<td>🖥️ <b>Desenvolvimento</b></td>
+<td>React, TypeScript, Vite e interfaces operacionais</td>
+</tr>
+<tr>
+<td>🔎 <b>Threat Hunting</b></td>
+<td>Pesquisa, investigação e correlação</td>
+</tr>
+<tr>
+<td>🚨 <b>SOC</b></td>
+<td>Monitoramento, triagem e resposta a incidentes</td>
+</tr>
+</table>
+
+---
 
 <div align="center">
 
-🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
-FILOSOFIA
-🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
-DADO → CONTEXTO → DETECÇÃO → INVESTIGAÇÃO → RESPOSTA
+## 🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
+
+## **FILOSOFIA**
+
+## 🟢 ━━━━━━━━━━━━━━━━━━━━━━━ 🟢
+
+### **DADO → CONTEXTO → DETECÇÃO → INVESTIGAÇÃO → RESPOSTA**
 
 </div>
 
-Não basta identificar um evento.
-É necessário compreender o que aconteceu, onde aconteceu, por que aconteceu e qual resposta deve ser executada.
+> **Não basta identificar um evento.
+> É necessário compreender o que aconteceu, onde aconteceu, por que aconteceu e qual resposta deve ser executada.**
+
+---
 
 <div align="center">
 
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🔴
-PH — CENTRO DE DEFESA CIBERNÉTICA
-PLATAFORMA DE MONITORAMENTO SOC
-🔴 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🔴
+
+# **PH — CENTRO DE DEFESA CIBERNÉTICA**
+
+### **PLATAFORMA DE MONITORAMENTO SOC**
+
+## 🔴 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 🔴
 
 <br>
 
-DESENVOLVIDO POR PAULO HENRIQUE — PH
+**DESENVOLVIDO POR PAULO HENRIQUE — PH**
 
 <br>
 
-🔴 DETECTAR
+🔴 **DETECTAR**
 ⬇
-🔵 INVESTIGAR
+🔵 **INVESTIGAR**
 ⬇
-🟢 RESPONDER
+🟢 **RESPONDER**
 
 <br>
 
-Linux • Cybersecurity • Python • Automação • SOC
+**Linux • Cybersecurity • Python • Automação • SOC**
 
 </div>
 
-⚠️ Aviso: este projeto é destinado a estudos, laboratório, simulação e ambientes autorizados. Técnicas de segurança devem ser utilizadas somente em sistemas para os quais exista autorização.
+---
+
+> ⚠️ **Aviso:** este projeto é destinado a estudos, laboratório, simulação e ambientes autorizados. Técnicas de segurança devem ser utilizadas somente em sistemas para os quais exista autorização.
 
 <div align="center">
 
-© PH — Centro de Defesa Cibernética
+**© PH — Centro de Defesa Cibernética**
 
 </div>
